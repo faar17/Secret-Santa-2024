@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiuta Matilde!</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="intro-page">
+        <h1>Matilde si è persa!</h1>
+        <p>Matilde, una viaggiatrice instancabile, si è persa durante uno dei suoi viaggi in Europa. Aiutala a tornare a casa per Natale rispondendo correttamente alle domande!</p>
+        <button id="start-quiz">Inizia il Quiz</button>
+        <img src="rudolf.webp" alt="Babbo Natale" id="babbo-natale">
+    </div>
+
+    <div id="quiz-page" style="display: none;">
+        <div id="quiz-container">
+            <h2 id="question-text"></h2>
+            <div id="options-container"></div>
+            <button id="next-question" style="display: none;">Prossima domanda</button>
+        </div>
+    </div>
+
+    <div id="result-page" style="display: none;">
+        <h1 id="result-text"></h1>
+        <button id="restart-quiz">Ricomincia</button>
+    </div>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
